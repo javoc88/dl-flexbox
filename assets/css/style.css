@@ -17,26 +17,52 @@ aside {
 
 nav {
   border-bottom: solid 1px #bec1bb;
+  display: flex;
+  justify-content: space-around;
 }
 
 .usercard {
+  padding: 20px;
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 20px;
+  align-items: center;
 }
 
 .nav-avatar {
   height: 3rem;
   width: 3rem;
-  border-radius: 100%;
+  border-radius: 50%;
+  padding-right: 10px;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+} 
+
+.nav-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
 }
 
 .status p {
   color: #bec1bb;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 10px;
 }
 
 .nav-icons i {
   color: #828485;
+  font-size: 20px;
+  padding: 8px;
 }
 
 .nav-button {
@@ -59,6 +85,11 @@ button {
 
 button:hover {
   background-color: #cdc3e6;
+  color: #fff;
+}
+
+button:focus {
+  background-color: #bec1bb;
   color: #fff;
 }
 
@@ -85,8 +116,8 @@ section {
 }
 
 .chat-screen h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
 }
 
 .text {
@@ -96,5 +127,6 @@ section {
 
 .text p {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
