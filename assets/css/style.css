@@ -7,6 +7,7 @@
   height: 100vh;
   width: 100vw;
   display: flex;
+  background-color: #e8ebe4;
 }
 
 aside {
@@ -77,10 +78,10 @@ button {
   background-color: #a491d2;
   color: #fff;
   border: none;
-  padding: 15px 32px;
+  padding: 15px 50px;
   text-align: center;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 button:hover {
@@ -97,20 +98,23 @@ button:focus {
   border-bottom: solid 1px #bec1bb;
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
 }
 
 .contact {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   justify-content: baseline;
   align-items: center;
+  border-bottom: solid 1px #bec1bb;
 }
 
 .avatar {
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .cc-text {
@@ -122,14 +126,14 @@ button:focus {
 
 .cc-name {
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
 }
 
 .last-chat p {
   color: #1b1f21;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 section {
