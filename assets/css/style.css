@@ -28,8 +28,8 @@ nav {
 }
 
 .nav-avatar {
-  height: 3rem;
-  width: 3rem;
+  height: 2rem;
+  width: 2rem;
   border-radius: 50%;
   padding-right: 10px;
 }
@@ -91,6 +91,45 @@ button:hover {
 button:focus {
   background-color: #bec1bb;
   color: #fff;
+}
+
+.contacts {
+  border-bottom: solid 1px #bec1bb;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact {
+  padding: 20px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.avatar {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  padding-right: 10px;
+}
+
+.cc-text {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+} 
+
+.cc-name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.last-chat p {
+  color: #1b1f21;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 section {
