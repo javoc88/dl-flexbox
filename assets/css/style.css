@@ -10,13 +10,13 @@
 }
 
 aside {
-  background-color: #FFF;
+  background-color: #fff;
   height: 100vh;
   width: 20%;
 }
 
 nav {
-  border-bottom: solid 1px #BEC1BB;
+  border-bottom: solid 1px #bec1bb;
 }
 
 .usercard {
@@ -32,7 +32,7 @@ nav {
 }
 
 .status p {
-  color: #BEC1BB;
+  color: #bec1bb;
 }
 
 .nav-icons i {
@@ -44,12 +44,12 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 30px;
-  border-bottom: solid 1px #BEC1BB;
+  border-bottom: solid 1px #bec1bb;
 }
 
 button {
-  background-color: #A491D2;
-  color: #FFF;
+  background-color: #a491d2;
+  color: #fff;
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -57,13 +57,44 @@ button {
   font-size: 16px;
 }
 
-button:hover{
-  background-color: #CDC3E6;
-  color: #FFF;
+button:hover {
+  background-color: #cdc3e6;
+  color: #fff;
 }
 
 section {
-  background-color: #E8EBE4;
+  background-color: #e8ebe4;
   height: 100vh;
   width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hand {
+  height: 10rem;
+  width: 10rem;
+  padding: 20px;
+}
+
+.chat-screen h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+
+.text {
+  height: 10rem;
+  width: 30rem;
+}
+
+.text p {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
